@@ -49,6 +49,8 @@ python scripts/run.py ask_question.py --question "你的问题" --notebook-id "e
 
 使用 `git-auto-sync` skill 一键同步。
 
+**远程仓库**: https://github.com/gongyuhang2023-cpu/EcAZPhageDocumentation
+
 **触发方式**：说 "git保存并推送" 或 "同步项目到远程"
 
 **功能**：自动执行 git add . -> git commit -> git push
