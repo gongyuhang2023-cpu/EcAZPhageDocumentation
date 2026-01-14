@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"C:\\\\Users\\\\36094\\\\Desktop\\\\EcAZPhageDocumentation\" /s /b)",
+      "Bash(tree:*)",
+      "Bash(du:*)",
+      "Bash(find:*)",
+      "Bash(unzip:*)",
+      "mcp__paper-search__search_pubmed",
+      "Bash(ls:*)",
+      "mcp__paper-search__search_arxiv",
+      "WebSearch",
+      "mcp__paper-search__search_google_scholar",
+      "WebFetch(domain:notebooklm.google.com)",
+      "Skill(notebooklm)",
+      "Bash(python scripts/run.py:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}

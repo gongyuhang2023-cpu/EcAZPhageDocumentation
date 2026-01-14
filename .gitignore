@@ -1,0 +1,11 @@
+# R项目文件
+.Rhistory
+.Rproj.user/
+
+# 临时文件
+tmpclaude-*
+*.cwd
+
+# 系统文件
+.DS_Store
+Thumbs.db
