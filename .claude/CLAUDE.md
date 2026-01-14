@@ -45,6 +45,42 @@ python scripts/run.py ask_question.py --question "你的问题" --notebook-id "e
 
 ---
 
+## Git同步
+
+使用 `git-auto-sync` skill 一键同步。
+
+**触发方式**：说 "git保存并推送" 或 "同步项目到远程"
+
+**功能**：自动执行 git add . -> git commit -> git push
+
+---
+
+## 文献搜索与下载
+
+使用MCP paper-search工具搜索和下载学术文献。
+
+### 搜索文献
+
+| 数据库 | 用途 |
+|--------|------|
+| PubMed | 生物医学文献 |
+| arXiv | 预印本 |
+| bioRxiv | 生物学预印本 |
+| Google Scholar | 综合搜索 |
+
+### 下载PDF
+
+- arXiv和bioRxiv的文献可直接下载PDF
+- 下载后保存到 References/ 文件夹
+
+### 何时使用
+
+1. **需要补充参考文献时** - 搜索相关方法学文献
+2. **验证实验方法时** - 查找最新protocol
+3. **撰写报告时** - 获取引用文献
+
+---
+
 ## 项目文件结构
 
 ```
