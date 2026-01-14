@@ -57,6 +57,18 @@ python scripts/run.py ask_question.py --question "你的问题" --notebook-id "e
 
 ---
 
+## 实验记录Skill
+
+当用户报告实验进度时，使用 `experiment-logger` skill 自动记录到对应实验文件。
+
+**触发方式**：用户说"记录一下"、"做完了XXX"、或描述实验操作时
+
+**执行**：调用 R 脚本自动追加记录（含时间戳）
+
+**详见**：`~/.claude/skills/experiment-logger/SKILL.md`（全局技能）
+
+---
+
 ## 文献搜索与下载
 
 使用MCP paper-search工具搜索和下载学术文献。

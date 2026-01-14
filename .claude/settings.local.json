@@ -15,7 +15,12 @@
       "Skill(notebooklm)",
       "Bash(python scripts/run.py:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(Rscript:*)",
+      "Bash(bash:*)",
+      "Skill(skill-architect)"
     ]
   }
 }
