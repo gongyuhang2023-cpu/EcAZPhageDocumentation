@@ -20,7 +20,8 @@
       "Bash(git push:*)",
       "Bash(Rscript:*)",
       "Bash(bash:*)",
-      "Skill(skill-architect)"
+      "Skill(skill-architect)",
+      "Bash(python:*)"
     ]
   }
 }

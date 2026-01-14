@@ -12,7 +12,7 @@
 
 ## Objective
 
-To determine the host range of 5 phage strains (R1, R2, R3, W1, W2) against two host bacteria (EcAZ-1 and EcAZ-2-OVA) through cross-infection testing.
+To determine the infectivity of 5 phage isolates (R1, R2, R3, W1, W2) against two host strains (EcAZ-1 and EcAZ-2-OVA) through cross-validation.
 
 ---
 
@@ -34,41 +34,41 @@ To determine the host range of 5 phage strains (R1, R2, R3, W1, W2) against two 
 | EcAZ-2-OVA | R | OVA-expressing |
 
 ### Reagents
-| Reagent | Specification | Volume | Notes |
+| Reagent | Specification | Amount | Notes |
 |---------|---------------|--------|-------|
-| LB agar plates | 1.5% | | |
-| Soft agar | 0.7% | | |
-| Log-phase culture | OD600~0.5 | | |
+| LB agar plates | 1.5% | - | - |
+| Soft agar | 0.7% | - | - |
+| Log-phase culture | OD₆₀₀ ~0.5 | - | - |
 
 ### Equipment
-- [x] Multichannel pipette
+- [x] Multi-channel pipette
 - [x] 37°C incubator
 
 ---
 
 ## Protocol
 
-### Spot Test Method (R/W Bacteria/Phage Cross-Validation)
+### Spot Test Method (Cross-validation of bacteria and phages)
 1. Prepare double-layer agar plates with different host bacteria
-2. Serial dilute each phage strain (10^-1, 10^-2, 10^-3)
-3. Spot 5uL onto plates
+2. Serially dilute each phage (10⁻¹, 10⁻², 10⁻³)
+3. Spot 5 µL onto the plates
 4. Incubate at 37°C overnight
-5. Observe clear zone formation
+5. Observe plaque formation
 
 ### Scoring Criteria
-- **+++**: Clear transparent zone
-- **++**: Semi-transparent zone
-- **+**: Turbid zone
-- **-**: No zone
+- **+++**: Clear transparent plaque
+- **++**: Semi-transparent plaque
+- **+**: Turbid plaque
+- **-**: No plaque
 
 ---
 
 ## Experimental Records
 
-| Time | Operation | Observations/Notes |
+| Date | Operation | Observations/Notes |
 |------|-----------|-------------------|
-| 11-24~30 | Host range experiment | R/W bacteria/phage cross-validation |
-| 12-04 | Final confirmation | |
+| 11-24~30 | Host range determination | Cross-validation of R/W strains and phages |
+| 12-04 | Final confirmation | - |
 
 ---
 
@@ -96,16 +96,16 @@ To determine the host range of 5 phage strains (R1, R2, R3, W1, W2) against two 
 
 ### Conclusions
 
-1. **4 out of 5 phage strains have broad host range**, capable of infecting both EcAZ-1 and EcAZ-2-OVA
-2. **R1 is the only narrow host range phage**, can only infect EcAZ-2-OVA (R strain)
+1. **4 out of 5 phages exhibit broad host range**, capable of infecting both EcAZ-1 and EcAZ-2-OVA
+2. **R1 is the only narrow host range phage**, exclusively infecting EcAZ-2-OVA (R strain)
 3. The host specificity of R1 warrants further investigation, possibly related to surface receptors associated with OVA expression
 
 ---
 
-## Problems and Improvements
+## Issues and Improvements
 
-- Consider expanding test strain panel to include more E. coli strains
-- The narrow host range mechanism of R1 is worth in-depth study
+- Consider expanding the test panel to include more *E. coli* strains
+- The mechanism underlying R1's narrow host range deserves in-depth study
 
 ---
 
