@@ -21,7 +21,8 @@
       "Bash(Rscript:*)",
       "Bash(bash:*)",
       "Skill(skill-architect)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(pip install:*)"
     ]
   }
 }
