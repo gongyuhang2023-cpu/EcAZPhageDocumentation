@@ -22,7 +22,17 @@
       "Bash(bash:*)",
       "Skill(skill-architect)",
       "Bash(python:*)",
-      "Bash(pip install:*)"
+      "Bash(pip install:*)",
+      "WebFetch(domain:support.claude.com)",
+      "Bash(claude mcp:*)",
+      "WebFetch(domain:help.biorender.com)",
+      "Bash(python3:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git init:*)",
+      "Bash(claude plugin:*)",
+      "Bash(claude:*)",
+      "mcp__plugin_biorender_BioRender__search-icons",
+      "mcp__plugin_biorender_BioRender__search-templates"
     ]
   }
 }
