@@ -17,7 +17,7 @@
         "Host strain: EcAZ-2-OVA (R strain, OVA-expressing)",
         "Application: Phage therapy research"
       ],
-      "notes": "Let me start with the project background.\n\nOur core objective is to isolate bacteriophages capable of infecting EcAZ E. coli from sewage samples. Why sewage? Because it's a natural reservoir of phage diversity, containing a rich variety of bacteriophages.\n\nWe used two host strains for screening: EcAZ-1, a wild-type strain we call W, and EcAZ-2-OVA, an engineered strain expressing the OVA antigen, which we call R.\n\nThe ultimate application of this project is phage therapy research. The isolated phages will be evaluated for their therapeutic potential."
+      "notes": "Let me start with the project background.\n\nOur core objective is to isolate bacteriophages capable of infecting EcAZ E. coli from sewage samples. Why sewage? Because it's a natural reservoir of phage diversity, containing a rich variety of bacteriophages.\n\nWe used two host strains for screening: EcAZ-1, a wild-type strain we call W, and EcAZ-2-OVA, an engineered strain expressing the OVA antigen, which we call R.\n\nThe ultimate application of this project is phage therapy research."
     },
     {
       "type": "table",
@@ -30,7 +30,21 @@
         ["W1", "EcAZ-1", "Small plaques", "5-6 rounds"],
         ["W2", "EcAZ-1", "Medium plaques", "5-6 rounds"]
       ],
-      "notes": "Through multiple rounds of enrichment and purification, we successfully isolated five bacteriophages.\n\nThis table shows the basic information for each phage. R1, R2, and R3 were enriched using the R strain, while W1 and W2 were enriched using the W strain.\n\nNotably, these five phages exhibit distinct plaque morphologies. R1 produces tiny plaques, R2 produces turbid plaques—which might suggest it's a temperate phage. R3 is the most striking, producing large, clear plaques with high titer.\n\nEach phage underwent 4-6 rounds of purification to ensure we obtained pure isolates."
+      "notes": "Through multiple rounds of enrichment and purification, we successfully isolated five bacteriophages.\n\nR1, R2, and R3 were enriched using the R strain, while W1 and W2 were enriched using the W strain.\n\nNotably, these five phages exhibit distinct plaque morphologies. R1 produces tiny plaques, R2 produces turbid plaques—suggesting it might be a temperate phage. R3 produces large, clear plaques with high titer.\n\nEach phage underwent 4-6 rounds of purification to ensure pure isolates."
+    },
+    {
+      "type": "table",
+      "title": "Plaque Morphology Characteristics",
+      "headers": ["Phage", "Diameter (mm)", "Clarity", "Halo", "Size Class"],
+      "rows": [
+        ["R1", "0.1–0.2", "**Clear**", "**Yes**", "Tiny"],
+        ["R2", "1.8±0.3", "**Turbid**", "No", "Medium"],
+        ["R3", "3.2±0.8", "**Clear**", "**Yes**", "Large"],
+        ["W1", "~0.5", "**Clear**", "**Yes**", "Small"],
+        ["W2", "2.2±0.4", "**Clear**", "**Yes**", "Medium"]
+      ],
+      "footnote": "⭐ R2 is the only turbid plaque (possibly temperate); R3 has the largest plaques",
+      "notes": "Now let's examine the plaque morphology in detail.\n\nWe characterized three parameters: diameter, clarity, and halo presence.\n\nFor diameter, R1 is the smallest at 0.1-0.2mm, while R3 is the largest at 3.2mm—a 15-fold difference!\n\nRegarding clarity, four phages produce clear plaques, but R2 is uniquely turbid. Turbid plaques typically indicate temperate phages capable of lysogenic cycles.\n\nFor halos, all except R2 show prominent halo zones, suggesting these phages may carry polysaccharide-degrading enzymes."
     },
     {
       "type": "table",
@@ -43,7 +57,7 @@
         ["W1", "+++", "+++", "Broad"],
         ["W2", "+++", "+++", "Broad"]
       ],
-      "notes": "Now let's look at the host range determination results—this is where we made a very important discovery!\n\nPlease pay attention to the R1 row in this table. It can only infect the R strain and completely fails to infect the W strain. This is the only narrow-host-range phage among all five isolates!\n\nWhy can R1 only infect the R strain? One possible explanation is that the OVA protein expressed on the R strain's surface alters the cell surface structure, and R1 specifically recognizes this unique receptor. This characteristic makes R1 a very valuable research subject.\n\nThe other four phages all have broad host ranges and can infect both strains."
+      "notes": "Now let's look at the host range determination results—this is where we made a very important discovery!\n\nPlease pay attention to the R1 row. It can only infect the R strain and completely fails to infect the W strain. This is the only narrow-host-range phage among all five isolates!\n\nWhy can R1 only infect the R strain? One possible explanation is that the OVA protein expressed on the R strain's surface creates a unique receptor that R1 specifically recognizes.\n\nThe other four phages all have broad host ranges and can infect both strains."
     },
     {
       "type": "two_column",
@@ -57,27 +71,28 @@
         "Results expected tomorrow"
       ],
       "visual": "Experiment Progress",
-      "notes": "Currently, the titer determination experiment is in progress.\n\nLet me briefly update you on our progress: On January 14th, we completed strain activation. On January 15th, we performed streak plating and picked single colonies. Today, January 16th, we completed the double-layer agar plating.\n\nSince R3 showed very high titers in previous experiments, we used a higher dilution range this time, from 10 to the negative 8th power to 10 to the negative 14th power.\n\nWe expect to observe results tomorrow, at which point we can accurately calculate the titers for each phage."
+      "notes": "Currently, the titer determination experiment is in progress.\n\nOn January 14th, we completed strain activation. On January 15th, we performed streak plating and picked single colonies. Today, January 16th, we completed the double-layer agar plating.\n\nSince R3 showed very high titers in previous experiments, we used a higher dilution range from 10^-8 to 10^-14.\n\nWe expect to observe results tomorrow."
     },
     {
       "type": "conclusion",
       "title": "Conclusions & Future Plans",
       "findings": [
         "Successfully isolated 5 phages (R1-R3, W1-W2)",
-        "R1 is the only narrow-host-range phage, infecting only EcAZ-2-OVA",
-        "R3 shows high-titer characteristics, requiring high dilution detection"
+        "R1 is the only **narrow-host-range** phage, infecting only EcAZ-2-OVA",
+        "R2 produces **turbid plaques**, possibly temperate phage",
+        "R3 has the **largest plaques** (3.2mm) and highest titer"
       ],
       "next_steps": [
         "Complete titer determination (this week)",
         "One-step growth curve experiments",
         "DNA extraction and genome sequencing"
       ],
-      "notes": "Let me summarize our main findings and future plans.\n\nWe have three key findings: First, we successfully isolated five bacteriophages from sewage. Second, R1 is the only narrow-host-range phage—this is a very valuable discovery worthy of investigating its molecular mechanism. Third, R3 shows very high titers, making it suitable for large-scale preparation.\n\nOur next steps: After completing titer determination this week, we will conduct one-step growth curve experiments to characterize the replication kinetics of these phages, followed by DNA extraction and genome sequencing to comprehensively understand their genetic features."
+      "notes": "Let me summarize our main findings and future plans.\n\nFour key findings: First, we successfully isolated five bacteriophages. Second, R1 is the only narrow-host-range phage—a valuable discovery. Third, R2 produces turbid plaques, suggesting temperate phage behavior. Fourth, R3 has the largest plaques and highest titer.\n\nNext steps: Complete titer determination this week, then conduct one-step growth curve experiments and proceed to DNA extraction and genome sequencing."
     },
     {
       "type": "thank_you",
       "email": "",
-      "notes": "Thank you all for your attention!\n\nIf you have any questions or suggestions, I'd be happy to discuss them. I'm particularly interested in hearing your thoughts about the mechanism behind R1's narrow host range.\n\nThank you!"
+      "notes": "Thank you all for your attention!\n\nIf you have any questions or suggestions, I'd be happy to discuss them. I'm particularly interested in hearing your thoughts about R1's narrow host range mechanism and R2's turbid plaque nature.\n\nThank you!"
     }
   ]
 }

@@ -32,7 +32,8 @@
       "Bash(claude plugin:*)",
       "Bash(claude:*)",
       "mcp__plugin_biorender_BioRender__search-icons",
-      "mcp__plugin_biorender_BioRender__search-templates"
+      "mcp__plugin_biorender_BioRender__search-templates",
+      "Bash(pip show:*)"
     ]
   }
 }

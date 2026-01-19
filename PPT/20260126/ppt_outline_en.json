@@ -1,0 +1,112 @@
+{
+  "slides": [
+    {
+      "type": "title",
+      "title": "EcAZ Phage Project Progress",
+      "subtitle": "Group Meeting Report",
+      "presenter": "Yuhang Gong",
+      "date": "2026-01-26",
+      "notes": "Good morning/afternoon, everyone!\n\nToday I'll be presenting the latest progress on our EcAZ phage project. The goal of this project is to isolate bacteriophages that can infect EcAZ E. coli strains from sewage samples.\n\nI'll cover the project background, isolation results, host range determination, titer determination, and killing curve experiments."
+    },
+    {
+      "type": "content",
+      "title": "Project Background",
+      "content": [
+        "Objective: Isolate phages infecting EcAZ E. coli from sewage",
+        "Host strain: EcAZ-1 (W strain, wild-type)",
+        "Host strain: EcAZ-2-OVA (R strain, OVA-expressing)",
+        "Application: Phage therapy research"
+      ],
+      "notes": "Let me start with the project background.\n\nOur core objective is to isolate bacteriophages capable of infecting EcAZ E. coli from sewage samples. Sewage is a natural reservoir of phage diversity.\n\nWe used two host strains: EcAZ-1, a wild-type strain we call W, and EcAZ-2-OVA, an engineered strain expressing OVA antigen, which we call R."
+    },
+    {
+      "type": "table",
+      "title": "Phage Isolation Results",
+      "headers": ["Phage", "Enrichment Host", "Plaque Morphology", "Purification Rounds"],
+      "rows": [
+        ["R1", "EcAZ-2-OVA", "Tiny plaques", "4-5 rounds"],
+        ["R2", "EcAZ-2-OVA", "Turbid plaques", "4-5 rounds"],
+        ["R3", "EcAZ-2-OVA", "Large plaques, high titer", "4-5 rounds"],
+        ["W1", "EcAZ-1", "Small plaques", "5-6 rounds"],
+        ["W2", "EcAZ-1", "Medium plaques", "5-6 rounds"]
+      ],
+      "notes": "Through multiple rounds of enrichment and purification, we successfully isolated five bacteriophages.\n\nR1, R2, and R3 were enriched using the R strain, while W1 and W2 were enriched using the W strain.\n\nThese five phages exhibit distinct plaque morphologies: R1 produces tiny plaques, R2 produces turbid plaques, and R3 produces large, clear plaques."
+    },
+    {
+      "type": "table",
+      "title": "Plaque Morphology Characteristics",
+      "headers": ["Phage", "Diameter (mm)", "Clarity", "Halo", "Size Class"],
+      "rows": [
+        ["R1", "0.1–0.2", "**Clear**", "**Yes**", "Tiny"],
+        ["R2", "1.8±0.3", "**Turbid**", "No", "Medium"],
+        ["R3", "3.2±0.8", "**Clear**", "**Yes**", "Large"],
+        ["W1", "~0.5", "**Clear**", "**Yes**", "Small"],
+        ["W2", "2.2±0.4", "**Clear**", "**Yes**", "Medium"]
+      ],
+      "footnote": "R2 is the only turbid plaque (possibly temperate); R3 has the largest plaques",
+      "notes": "We characterized three parameters: diameter, clarity, and halo presence.\n\nR1 is the smallest at 0.1-0.2mm, while R3 is the largest at 3.2mm—a 15-fold difference.\n\nR2 is uniquely turbid, suggesting it might be a temperate phage.\n\nAll except R2 show halos, suggesting these phages may carry polysaccharide-degrading enzymes."
+    },
+    {
+      "type": "table",
+      "title": "Host Range Determination Results",
+      "headers": ["Phage", "EcAZ-2-OVA (R)", "EcAZ-1 (W)", "Host Range"],
+      "rows": [
+        ["R1", "+++", "−", "**Narrow**"],
+        ["R2", "+++", "+++", "Broad"],
+        ["R3", "+++", "+++", "Broad"],
+        ["W1", "+++", "+++", "Broad"],
+        ["W2", "+++", "+++", "Broad"]
+      ],
+      "notes": "Host range determination revealed an important finding: R1 can only infect the R strain and completely fails to infect the W strain.\n\nThis is the only **narrow-host-range** phage among all five isolates!\n\nOne possible explanation is that the OVA protein expressed on the R strain's surface creates a unique receptor that R1 specifically recognizes."
+    },
+    {
+      "type": "table",
+      "title": "Titer Determination Results",
+      "headers": ["Phage", "Titer (PFU/mL)", "Notes"],
+      "rows": [
+        ["R1", "~2.5×10¹⁰", "Narrow host range"],
+        ["R2", "~3.7×10¹⁴", "Turbid plaques"],
+        ["R3", "~8.7×10¹⁰", "Large plaques"],
+        ["W1", "~6×10¹²", "-"],
+        ["W2", "~3.5×10¹⁴", "Highest titer"]
+      ],
+      "footnote": "R2 and W2 have the highest titers at 10¹⁴ PFU/mL",
+      "notes": "Titer determination shows significant variation among the five phages.\n\nR2 and W2 have the highest titers, reaching 10^14 PFU/mL.\n\nR1 and R3 have relatively lower titers, around 10^10 PFU/mL.\n\nThese data provide important references for subsequent experiments."
+    },
+    {
+      "type": "table",
+      "title": "Killing Curve: W Strain MOI Optimization",
+      "headers": ["Phage", "MOI", "Lysis Onset", "Killing Efficiency"],
+      "rows": [
+        ["W1", "10", "**56 min**", "Fastest lysis"],
+        ["W1", "1", "1h 22min", "Efficient"],
+        ["W1", "0.1", "1h 46min", "Efficient"],
+        ["W2", "1", "2h 17min", "**Highest efficiency**"],
+        ["W2", "10", "1h 57min", "Efficient"]
+      ],
+      "footnote": "W1: MOI=10 fastest; W2: MOI=1 most efficient",
+      "notes": "We performed 12-hour continuous monitoring killing curve experiments using BioTek Epoch 2.\n\nW1 phage at MOI=10 showed the fastest lysis, starting at just 56 minutes. All MOIs achieved effective killing.\n\nW2 phage at MOI=1 showed the highest killing efficiency, though overall lysis was slightly slower than W1.\n\nRecommended MOI: W1 use MOI≥1, W2 use MOI=1."
+    },
+    {
+      "type": "conclusion",
+      "title": "Conclusions & Future Plans",
+      "findings": [
+        "Successfully isolated **5 phages** (R1-R3, W1-W2)",
+        "R1 is the only **narrow-host-range** phage",
+        "R2 produces **turbid plaques**, possibly temperate phage",
+        "W1/W2 killing curves: **W1 MOI=10 fastest, W2 MOI=1 strongest**"
+      ],
+      "next_steps": [
+        "R strain killing curve experiments (R1, R2, R3)",
+        "One-step growth curve experiments",
+        "DNA extraction and genome sequencing"
+      ],
+      "notes": "Key findings summary:\n\nFirst, we successfully isolated five bacteriophages. Second, R1 is the only narrow-host-range phage. Third, R2 may be a temperate phage. Fourth, optimal MOIs for W1 and W2 have been determined.\n\nNext steps: Complete R strain killing curve experiments, then conduct one-step growth curves and genome sequencing."
+    },
+    {
+      "type": "thank_you",
+      "email": "",
+      "notes": "Thank you all for your attention!\n\nQuestions and discussions are welcome. Thank you!"
+    }
+  ]
+}
