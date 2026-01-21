@@ -88,20 +88,36 @@
       "notes": "We performed 12-hour continuous monitoring killing curve experiments using BioTek Epoch 2.\n\nW1 phage at MOI=10 showed the fastest lysis, starting at just 56 minutes. All MOIs achieved effective killing.\n\nW2 phage at MOI=1 showed the highest killing efficiency, though overall lysis was slightly slower than W1.\n\nRecommended MOI: W1 use MOI≥1, W2 use MOI=1."
     },
     {
+      "type": "table",
+      "title": "Killing Curve: R Strain MOI Optimization",
+      "headers": ["Phage", "MOI", "Lysis Onset", "Killing Efficiency"],
+      "rows": [
+        ["R3", "10", "**30 min**", "**Fastest & strongest**"],
+        ["R3", "1", "30 min", "Efficient"],
+        ["R3", "0.1", "45 min", "Efficient"],
+        ["R3", "0.01", "45 min", "Efficient"],
+        ["R1", "10", "30 min", "Moderate"],
+        ["R1", "1", "45 min", "Moderate"],
+        ["R2", "All MOIs", ">2h", "Weak lysis"]
+      ],
+      "footnote": "R3 most efficient; R2 weak lysis confirms temperate nature",
+      "notes": "R strain killing curves revealed significant differences among the three phages.\n\nR3 performed best: all MOIs achieved lysis within 30-45 minutes with the highest killing efficiency.\n\nR1 showed moderate performance: effective at high MOI, requires MOI≥1 for good lysis.\n\nR2 showed weak lysis: bacteria continued growing even at MOI=10. This is consistent with its turbid plaque morphology and further supports R2 being a temperate phage.\n\nRecommended MOI: R3 works at any MOI, R1 use MOI≥1."
+    },
+    {
       "type": "conclusion",
       "title": "Conclusions & Future Plans",
       "findings": [
         "Successfully isolated **5 phages** (R1-R3, W1-W2)",
         "R1 is the only **narrow-host-range** phage",
-        "R2 produces **turbid plaques**, possibly temperate phage",
-        "W1/W2 killing curves: **W1 MOI=10 fastest, W2 MOI=1 strongest**"
+        "R2 **turbid plaques** + weak lysis = confirmed **temperate phage**",
+        "Killing curves: **R3 strongest (30min), W1 fastest (56min)**"
       ],
       "next_steps": [
-        "R strain killing curve experiments (R1, R2, R3)",
         "One-step growth curve experiments",
-        "DNA extraction and genome sequencing"
+        "DNA extraction and genome sequencing",
+        "TEM morphological observation"
       ],
-      "notes": "Key findings summary:\n\nFirst, we successfully isolated five bacteriophages. Second, R1 is the only narrow-host-range phage. Third, R2 may be a temperate phage. Fourth, optimal MOIs for W1 and W2 have been determined.\n\nNext steps: Complete R strain killing curve experiments, then conduct one-step growth curves and genome sequencing."
+      "notes": "Key findings summary:\n\nFirst, we successfully isolated five bacteriophages. Second, R1 is the only narrow-host-range phage. Third, killing curves confirmed R2 as a temperate phage. Fourth, R3 showed the best killing efficiency with lysis starting at 30 minutes across all MOIs.\n\nNext steps: One-step growth curves to determine latent period and burst size, DNA extraction and genome sequencing, and TEM for morphological observation."
     },
     {
       "type": "thank_you",

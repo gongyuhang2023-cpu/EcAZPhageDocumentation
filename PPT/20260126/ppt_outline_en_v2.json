@@ -1,0 +1,94 @@
+{
+  "slides": [
+    {
+      "type": "title",
+      "title": "EcAZ Phage Project Progress",
+      "subtitle": "Group Meeting Report",
+      "presenter": "Yuhang Gong",
+      "date": "2026-01-26",
+      "notes": "Good morning/afternoon, everyone! Today I'll present the latest progress on our EcAZ phage project.\n\nThe goal is to isolate bacteriophages that can infect EcAZ E. coli from sewage samples. We use two host strains: wild-type W strain and OVA-expressing R strain.\n\nI'll cover phage isolation, host range, titer determination, and killing curves."
+    },
+    {
+      "type": "table",
+      "title": "Phage Isolation & Characterization Summary",
+      "headers": ["Phage", "Plaque Size", "Plaque Features", "Host Range", "Titer (PFU/mL)"],
+      "rows": [
+        ["**R1**", "0.1-0.2 mm", "Tiny, clear, halo+", "**Narrow (R only)**", "~2.5×10¹⁰"],
+        ["R2", "1.8±0.3 mm", "**Turbid**, no halo", "Broad", "~3.7×10¹⁴"],
+        ["**R3**", "3.2±0.8 mm", "Largest, clear, halo+", "Broad", "~8.7×10¹⁰"],
+        ["W1", "~0.5 mm", "Small, clear, halo+", "Broad", "~6×10¹²"],
+        ["W2", "2.2±0.4 mm", "Medium, clear, halo+", "Broad", "~3.5×10¹⁴"]
+      ],
+      "footnote": "R1: Only narrow-host-range | R2: Turbid plaques (temperate) | R3: Largest plaques",
+      "notes": "This table summarizes the key characteristics of our five phage isolates.\n\nThree important findings:\n\nFirst, R1 is the only narrow-host-range phage - it can only infect R strain, not W strain. This may be related to the OVA protein on R strain surface.\n\nSecond, R2 is the only phage producing turbid plaques, suggesting it may be a temperate phage.\n\nThird, R3 has the largest plaques - over 3mm in diameter, more than 15 times larger than R1."
+    },
+    {
+      "type": "image_grid",
+      "title": "Plaque Morphology Photos",
+      "images": [
+        "Experiments/Data/02_斑块形态学/Photos/R1_展示.jpg",
+        "Experiments/Data/02_斑块形态学/Photos/R2_展示.jpg",
+        "Experiments/Data/02_斑块形态学/Photos/R3_展示.jpg",
+        "Experiments/Data/02_斑块形态学/Photos/W1_展示.jpg",
+        "Experiments/Data/02_斑块形态学/Photos/W2_展示.jpg"
+      ],
+      "labels": [
+        "R1 (Tiny, 0.1-0.2mm)",
+        "R2 (Turbid, 1.8mm)",
+        "R3 (Large, 3.2mm)",
+        "W1 (Small, 0.5mm)",
+        "W2 (Medium, 2.2mm)"
+      ],
+      "notes": "Here are the plaque photos of all five phages.\n\nYou can clearly see the differences:\n\nR1 plaques are extremely small, barely visible.\n\nR2 shows turbid plaques - a hallmark of temperate phages.\n\nR3 has the largest and clearest plaques. Note the size heterogeneity due to spreading behavior.\n\nW1 and W2 have intermediate-sized clear plaques."
+    },
+    {
+      "type": "two_images",
+      "title": "Killing Curves: MOI Optimization",
+      "images": [
+        "Experiments/Data/08_杀菌曲线/killing_curve_all.png",
+        "Experiments/Data/08_杀菌曲线/killing_curve_R_all.png"
+      ],
+      "labels": [
+        "W Strain Killing Curves (W1, W2)",
+        "R Strain Killing Curves (R1, R2, R3)"
+      ],
+      "notes": "These are the key results from our killing curve experiments.\n\nLeft panel shows W strain results: W1 at MOI=10 shows the fastest lysis at 56 minutes; W2 at MOI=1 is most efficient.\n\nRight panel shows R strain results: R3 performs best - all MOIs achieve lysis within 30-45 minutes, making it the most efficient killer among all five phages. R1 shows moderate efficiency. R2 shows almost no lysis, confirming its temperate nature.\n\nConditions: 37°C, BioTek Epoch 2, 12-hour continuous monitoring."
+    },
+    {
+      "type": "table_with_conclusion",
+      "title": "Killing Curve Results Summary",
+      "headers": ["Phage", "Lysis Onset", "Key Feature"],
+      "rows": [
+        ["**R3**", "**30 min**", "Best killer, MOI-insensitive"],
+        ["W1", "56 min", "Fastest at high MOI"],
+        ["R2", "No lysis", "Temperate (lysogenic)"]
+      ],
+      "conclusions": [
+        "**R3**: Lysis within 30 min at any MOI → Top candidate for phage therapy",
+        "**R2**: No lysis → Confirmed as temperate phage"
+      ],
+      "notes": "This table summarizes the key findings from the killing curve experiments.\n\nTwo main points:\n\nFirst, R3 is the best killer - fastest lysis (30 minutes), works well across all MOIs including MOI=0.01. This makes it the top candidate for phage therapy applications.\n\nSecond, R2 shows almost no lysis effect. Combined with its turbid plaque morphology, we can confirm R2 is a temperate phage that enters the lysogenic cycle rather than lytic cycle."
+    },
+    {
+      "type": "conclusion",
+      "title": "Conclusions & Future Plans",
+      "findings": [
+        "Successfully isolated **5 phages** (R1-R3, W1-W2)",
+        "**R1**: Only narrow-host-range phage (R strain specific)",
+        "**R2**: Turbid plaques + weak lysis = **temperate phage**",
+        "**R3**: Best killing efficiency (30min, MOI-insensitive)",
+        "**W1**: Fastest lysis (56min @ MOI=10)"
+      ],
+      "next_steps": [
+        "One-step growth curve (latent period, burst size)",
+        "DNA extraction & genome sequencing",
+        "TEM morphological observation"
+      ],
+      "notes": "Summary of our main findings:\n\nWe successfully isolated five bacteriophages from sewage that can infect EcAZ E. coli.\n\nR1 is the only narrow-host-range phage, possibly recognizing an OVA-related receptor.\n\nR2 is confirmed as a temperate phage - useful for studying lysogeny mechanisms.\n\nR3 has the best killing efficiency - an excellent candidate for phage therapy.\n\nNext steps: one-step growth curves, genome sequencing, and TEM imaging."
+    },
+    {
+      "type": "thank_you",
+      "notes": "Thank you all for your attention!\n\nQuestions and discussions are welcome. Thank you!"
+    }
+  ]
+}
