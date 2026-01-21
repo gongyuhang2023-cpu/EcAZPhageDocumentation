@@ -6,6 +6,22 @@
 
 ---
 
+## 项目导航准则（重要）
+
+本项目使用 `项目目录.md` 作为**核心导航索引**。
+
+**重要准则**：
+1. **优先查阅索引**：在寻找文件或执行搜索之前，先读取 `./项目目录.md` 以缩小范围
+2. **减少全量扫描**：避免执行全局递归搜索，节省 Token 并提高准确性
+3. **利用标签搜索**：目录中的 `#标签` 可用于关键词定位
+4. **及时维护**：新增/删除文件时同步更新目录
+
+**索引文件位置**：`./项目目录.md`
+
+`git-auto-sync` 技能会在每次同步时自动更新该文件的时间戳和变更日志。
+
+---
+
 ## NotebookLM使用规范
 
 ### 笔记本信息
@@ -95,29 +111,17 @@ python scripts/run.py ask_question.py --question "你的问题" --notebook-id "e
 
 ---
 
-## 项目文件结构
-
-```
-EcAZPhageDocumentation/
-├── README.md
-├── Experiments/        # 实验记录和数据
-│   ├── *.md            # 每个实验一个文件
-│   └── Data/           # 原始数据
-├── Protocols/          # 实验方案 (PDF + md)
-└── References/         # 参考文献 (PDF + md)
-```
-
----
-
 ## 核心参考文献对照表
 
 | 实验 | 主要参考文件 | 页码 |
 |------|-------------|------|
-| Plaque Assay/滴度测定 | Deng lab handbook.pdf | p.25-26 |
-| Plaque Assay/滴度测定 | 2025 student course guide_final.pdf | p.9-10 |
-| 噬菌体富集 | Phage Enrichment_SOP.pdf | - |
-| DNA提取 | Phage DNA Extraction.pdf | - |
-| 生长动力学 | Phage Growth Kinetics protocol.pdf | - |
+| Plaque Assay/滴度测定 | `./Protocols/Deng lab handbook.pdf` | p.25-26 |
+| Plaque Assay/滴度测定 | `./Protocols/2025 student course guide_final.pdf` | p.9-10 |
+| 噬菌体富集 | `./Protocols/Phage Enrichment_SOP.pdf` | - |
+| DNA提取 | `./Protocols/Phage DNA Extraction.pdf` | - |
+| 生长动力学 | `./Protocols/Phage Growth Kinetics protocol.pdf` | - |
+
+> 完整文件索引见 `./项目目录.md`
 
 ---
 
@@ -145,4 +149,4 @@ EcAZPhageDocumentation/
 
 ---
 
-*更新日期: 2025-01-14*
+*更新日期: 2026-01-21*
